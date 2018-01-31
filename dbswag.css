@@ -332,11 +332,16 @@ textarea,
     transition: 200ms cubic-bezier(.2, .11, 0, 1) !important;
 }
 
-/* Extra logo's where nitro logo is */
-.flex-lFgbSz.profileBadges-2B6TBS>div:before {
-    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0' !important;
-    background-image: url('https://favna.s-ul.eu/FwGzLmU4.svg') !important;
-    background-repeat: no-repeat !important;
+/* Extra Badges */
+
+.flex-lFgbSz.profileBadges-2B6TBS > div:before {
+    content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0';
+    background-image: url('https://favna.s-ul.eu/FwGzLmU4.svg');
+    background-repeat: no-repeat;
+}
+
+.flex-lFgbSz.profileBadges-2B6TBS > div {
+    background-image: url('');
 }
 
 /* idk */
@@ -421,3 +426,4 @@ textarea,
 .theme-dark .message-group .mentioned .message-text {
     background: rgb(75, 24, 75) !important;
 }
+
