@@ -1,6 +1,6 @@
 //META{"name":"dbswag Theme","description":"Sick af theme","author":"dbswag","version":"1.0"}*//{}
 
-/*https://cdn.rawgit.com/danbetesta/dbswagDiscordTheme/master/dbswag.css*/ 
+/*https://cdn.rawgit.com/danbetesta/dbswagDiscordTheme/master/dbswag.css*/
 
 /* stolen shit from other themes lmaoooooooo */
 @import url(https://fonts.googleapis.com/css?family=Karla|Questrial);
@@ -358,11 +358,6 @@ textarea,
 .headerTag-3zin_i {
     color: white;
 }
-
-/* get rid of the tool tip when clicking on someones name cus its wank */
-.theme-dark .footer-2J5zqP {
-    display: none;
-}
 /* some random text border */
 
 .container-3lnMWU {
@@ -427,3 +422,8 @@ textarea,
     background: rgb(75, 24, 75) !important;
 }
 
+/* legit just did this and cant remember what it was for */
+/* ah i remember fuckin when u click server name and pop up comes up added the colour to it */
+.size-2pbXxj {
+    background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
