@@ -8,7 +8,6 @@
 @import url(https://rawgit.com/intrnl/discordAdditions/master/hideChannelDescription/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/nativeTitlebar/themefile.css);
 @import url(https://rawgit.com/intrnl/discordAdditions/master/revertTitlebar/themefile_notice3.css);
-
 @import url(https://rawgit.com/Favna/8671ef1c87d0686e7bd50349aa98c16d/raw/0266dfa6d1f3fd2393e60192ae1729bbd7e86eec/colorvars.css);
 @import url(https://rawgit.com/Favna/acb8f36b57826f28fb1d883524ce01eb/raw/783100c8334fe6acf5d1cad9461955e9b64dc29b/MaterialAnimation.css);
 @import url(https://rawgit.com/Favna/1afa84709c0bcac1a1fb6a2195cf30a2/raw/651586990f8d8606e8134549e7d2a319601fe1bf/MaterialSettings.css);
@@ -385,7 +384,7 @@ textarea,
 
 /* Bar on the left of a link */
 .theme-dark .embedPill-3sYS1X {
-    background-color: #12122B;
+    background-color: #A552E0;
 }
 /* NIGGA MAKE THE EMOJIS AS BIG AS U WANT */
 .emoji {
@@ -426,4 +425,14 @@ textarea,
 /* ah i remember fuckin when u click server name and pop up comes up added the colour to it */
 .size-2pbXxj {
     background: url("https://i.imgur.com/4FdcXbm.png") !important;
+}
+
+/* first message of the day notification thingy */ 
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: white;
+}
+
+/* Removes pro-tip under message when left clicking on a name */
+.theme-dark .protip-12obwm {
+    display: none;
 }
